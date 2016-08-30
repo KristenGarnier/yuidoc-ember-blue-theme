@@ -1,10 +1,10 @@
 {
   "name": "yuidoc-ember-blue-theme",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "YUIDoc theme for ember addons, with blue, and your logo enabled",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/KristenGarnier/yuidoc-ember-blue-theme"
   },
   "keywords": [
     "yuidoc"

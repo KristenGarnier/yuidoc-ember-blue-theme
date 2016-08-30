@@ -1,9 +1,8 @@
 # YUIDoc Ember Blue Theme
 
 An theme based on [EmberJs YUIDoc theme](https://www.npmjs.com/package/yuidoc-ember-theme)
-An Blue EmberJS based [YUIDoc](http://yui.github.io/yuidoc/) theme
 
-[**Live Example**](http://offirgolan.github.io/ember-cp-validations/docs)
+An Blue EmberJS based [YUIDoc](http://yui.github.io/yuidoc/) theme
 
 ```sh
 $ npm install yuidoc-ember-blue-theme
