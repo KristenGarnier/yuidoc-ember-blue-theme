@@ -18,8 +18,8 @@ $ npm install yuidoc-ember-blue-theme
 If your project uses a "yuidoc.json" file for configuration, add:
 
 ```js
-"themedir" : "node_modules/yuidoc-ember-theme",
-"helpers" : ["node_modules/yuidoc-ember-theme/helpers/helpers.js"]
+"themedir" : "node_modules/yuidoc-ember-blue-theme",
+"helpers" : ["node_modules/yuidoc-ember-blue-theme/helpers/helpers.js"]
 ```
 
 Example:
