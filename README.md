@@ -1,5 +1,7 @@
 # YUIDoc Ember Blue Theme
 
+[LIVE DEMO](https://kristengarnier.github.io/yuidoc-ember-blue-theme/docs)
+
 An theme based on [EmberJs YUIDoc theme](https://www.npmjs.com/package/yuidoc-ember-theme)
 
 An Blue EmberJS based [YUIDoc](http://yui.github.io/yuidoc/) theme
