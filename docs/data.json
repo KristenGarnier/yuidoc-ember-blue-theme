@@ -1,0 +1,1716 @@
+{
+    "project": {
+        "name": "FAKE DOCUMENTATION",
+        "description": "Fake documentation, intended to be used as demo",
+        "version": "1.0.0",
+        "url": "https://github.com/KristenGarnier/yuidoc-ember-blue-theme",
+        "logo": "https://camo.githubusercontent.com/891e94cd8dda7f40f451bb27067be513c230318a/68747470733a2f2f7261772e6769746875622e636f6d2f766f6f646f6f74696b69676f642f6c6f676f2e6a732f6d61737465722f626f676a732f6a732e706e67"
+    },
+    "files": {
+        "src/config/langues/de.js": {
+            "name": "src/config/langues/de.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/config/langues/en.js": {
+            "name": "src/config/langues/en.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/config/langues/fr.js": {
+            "name": "src/config/langues/fr.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/config/langues/nl.js": {
+            "name": "src/config/langues/nl.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/config/index.js": {
+            "name": "src/config/index.js",
+            "modules": {
+                "Config": 1
+            },
+            "classes": {
+                "Config": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/domListenerCallback/index.js": {
+            "name": "src/domListenerCallback/index.js",
+            "modules": {
+                "domListenerCallback": 1
+            },
+            "classes": {
+                "domListenerCallback": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/template/helpers/__.js": {
+            "name": "src/template/helpers/__.js",
+            "modules": {
+                "Template": 1
+            },
+            "classes": {
+                "__": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/template/helpers/diffDays.js": {
+            "name": "src/template/helpers/diffDays.js",
+            "modules": {},
+            "classes": {
+                "diffDays": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/template/helpers/ifEqual.js": {
+            "name": "src/template/helpers/ifEqual.js",
+            "modules": {},
+            "classes": {
+                "ifEqual": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/template/helpers/momentify.js": {
+            "name": "src/template/helpers/momentify.js",
+            "modules": {},
+            "classes": {
+                "momentify": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/template/helpers/supperior.js": {
+            "name": "src/template/helpers/supperior.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/template/helpers/ternary.js": {
+            "name": "src/template/helpers/ternary.js",
+            "modules": {},
+            "classes": {
+                "Ternary": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/template/helpers/undoTraduction.js": {
+            "name": "src/template/helpers/undoTraduction.js",
+            "modules": {},
+            "classes": {
+                "undoTraduction": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/template/renders.js": {
+            "name": "src/template/renders.js",
+            "modules": {},
+            "classes": {
+                "Renders": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/utils/cache.js": {
+            "name": "src/utils/cache.js",
+            "modules": {
+                "Utils": 1
+            },
+            "classes": {
+                "Cache": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/utils/index.js": {
+            "name": "src/utils/index.js",
+            "modules": {},
+            "classes": {
+                "UtilisClass": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "src/index.js": {
+            "name": "src/index.js",
+            "modules": {
+                "Base": 1
+            },
+            "classes": {
+                "Base": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        },
+        "webpack.config.js": {
+            "name": "webpack.config.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {
+        "Config": {
+            "name": "Config",
+            "submodules": {},
+            "elements": {},
+            "classes": {
+                "Config": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "src/config/index.js",
+            "line": 6,
+            "description": "Exportation des config pour l'app",
+            "since": "0.1.0"
+        },
+        "domListenerCallback": {
+            "name": "domListenerCallback",
+            "submodules": {},
+            "elements": {},
+            "classes": {
+                "domListenerCallback": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "src/domListenerCallback/index.js",
+            "line": 14,
+            "description": "Gestion des callback pour les listeners du DOM"
+        },
+        "Template": {
+            "name": "Template",
+            "submodules": {},
+            "elements": {},
+            "classes": {
+                "__": 1,
+                "diffDays": 1,
+                "ifEqual": 1,
+                "momentify": 1,
+                "undoTraduction": 1,
+                "Ternary": 1,
+                "Renders": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "src/template/renders.js",
+            "line": 4,
+            "description": "Helper pour Handlebars adin de traduire les templates\n\nAttention les helbers handlebars doivent respecter une configuration très spéciale.\nEn effet, si la configuration n'est pas respectée le helper ne sera pas reconnu et l'application ne pourrra pas fonctionner correctement.\nLa configuration est :\n- Synthaxe ES5\n- Utilisation du CommonJS\n- Le nom du fichier doit être le nom de l'helper",
+            "since": "2.2.0"
+        },
+        "Utils": {
+            "name": "Utils",
+            "submodules": {},
+            "elements": {},
+            "classes": {
+                "Cache": 1,
+                "UtilisClass": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "src/utils/index.js",
+            "line": 11,
+            "description": "Gestion du cache pour l'app",
+            "since": "0.1.0"
+        },
+        "Base": {
+            "name": "Base",
+            "submodules": {},
+            "elements": {},
+            "classes": {
+                "Base": 1
+            },
+            "fors": {},
+            "namespaces": {},
+            "tag": "module",
+            "file": "src/index.js",
+            "line": 32,
+            "description": "Classe de point d'entrée pour l'application"
+        }
+    },
+    "classes": {
+        "Config": {
+            "name": "Config",
+            "shortname": "Config",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Config",
+            "namespace": "",
+            "file": "src/config/index.js",
+            "line": 6,
+            "description": "Exportation des config pour l'app"
+        },
+        "domListenerCallback": {
+            "name": "domListenerCallback",
+            "shortname": "domListenerCallback",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "domListenerCallback",
+            "namespace": "",
+            "file": "src/domListenerCallback/index.js",
+            "line": 14,
+            "description": "Gestion des callback pour les listeners du DOM"
+        },
+        "__": {
+            "name": "__",
+            "shortname": "__",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Template",
+            "namespace": "",
+            "file": "src/template/helpers/__.js",
+            "line": 1,
+            "description": "Helper pour Handlebars adin de traduire les templates\n\nAttention les helbers handlebars doivent respecter une configuration très spéciale.\nEn effet, si la configuration n'est pas respectée le helper ne sera pas reconnu et l'application ne pourrra pas fonctionner correctement.\nLa configuration est :\n- Synthaxe ES5\n- Utilisation du CommonJS\n- Le nom du fichier doit être le nom de l'helper"
+        },
+        "diffDays": {
+            "name": "diffDays",
+            "shortname": "diffDays",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Template",
+            "namespace": "",
+            "file": "src/template/helpers/diffDays.js",
+            "line": 5,
+            "description": "Helper pour Handlebars permettant de faire ressortir la différences de jours\n\nAttention les helbers handlebars doivent respecter une configuration très spéciale.\nEn effet, si la configuration n'est pas respectée le helper ne sera pas reconnu et l'application ne pourrra pas fonctionner correctement.\nLa configuration est :\n- Synthaxe ES5\n- Utilisation du CommonJS\n- Le nom du fichier doit être le nom de l'helper"
+        },
+        "ifEqual": {
+            "name": "ifEqual",
+            "shortname": "ifEqual",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Template",
+            "namespace": "",
+            "file": "src/template/helpers/ifEqual.js",
+            "line": 1,
+            "description": "Helper pour Handlebars permettant de faire des conditions d'égalités\n\nAttention les helbers handlebars doivent respecter une configuration très spéciale.\nEn effet, si la configuration n'est pas respectée le helper ne sera pas reconnu et l'application ne pourrra pas fonctionner correctement.\nLa configuration est :\n- Synthaxe ES5\n- Utilisation du CommonJS\n- Le nom du fichier doit être le nom de l'helper"
+        },
+        "momentify": {
+            "name": "momentify",
+            "shortname": "momentify",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Template",
+            "namespace": "",
+            "file": "src/template/helpers/momentify.js",
+            "line": 4,
+            "description": "Helper pour Handlebars permettant de traiter des dates et de les formater avec moment\n\nAttention les helbers handlebars doivent respecter une configuration très spéciale.\nEn effet, si la configuration n'est pas respectée le helper ne sera pas reconnu et l'application ne pourrra pas fonctionner correctement.\nLa configuration est :\n- Synthaxe ES5\n- Utilisation du CommonJS\n- Le nom du fichier doit être le nom de l'helper"
+        },
+        "undoTraduction": {
+            "name": "undoTraduction",
+            "shortname": "undoTraduction",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Template",
+            "namespace": "",
+            "file": "src/template/helpers/undoTraduction.js",
+            "line": 1,
+            "description": "Helper pour Handlebars permettant changer la traduction #038 en &\n\nAttention les helbers handlebars doivent respecter une configuration très spéciale.\nEn effet, si la configuration n'est pas respectée le helper ne sera pas reconnu et l'application ne pourrra pas fonctionner correctement.\nLa configuration est :\n- Synthaxe ES5\n- Utilisation du CommonJS\n- Le nom du fichier doit être le nom de l'helper"
+        },
+        "Ternary": {
+            "name": "Ternary",
+            "shortname": "Ternary",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Template",
+            "namespace": "",
+            "file": "src/template/helpers/ternary.js",
+            "line": 1,
+            "description": "Helper pour Handlebars permettant de faire des conditions ternaires\n\nAttention les helbers handlebars doivent respecter une configuration très spéciale.\nEn effet, si la configuration n'est pas respectée le helper ne sera pas reconnu et l'application ne pourrra pas fonctionner correctement.\nLa configuration est :\n- Synthaxe ES5\n- Utilisation du CommonJS\n- Le nom du fichier doit être le nom de l'helper"
+        },
+        "Renders": {
+            "name": "Renders",
+            "shortname": "Renders",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Template",
+            "namespace": "",
+            "file": "src/template/renders.js",
+            "line": 4,
+            "description": "Classe s'occupant de toute la partie rendu sur navigateur des vues"
+        },
+        "Cache": {
+            "name": "Cache",
+            "shortname": "Cache",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Utils",
+            "namespace": "",
+            "file": "src/utils/cache.js",
+            "line": 5,
+            "description": "Gestion du cache pour l'app"
+        },
+        "UtilisClass": {
+            "name": "UtilisClass",
+            "shortname": "UtilisClass",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Utils",
+            "namespace": "",
+            "file": "src/utils/index.js",
+            "line": 11,
+            "description": "Ensemble de classe utilitaires"
+        },
+        "Base": {
+            "name": "Base",
+            "shortname": "Base",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "module": "Base",
+            "namespace": "",
+            "file": "src/index.js",
+            "line": 32,
+            "description": "Classe de point d'entrée pour l'application"
+        }
+    },
+    "elements": {},
+    "classitems": [
+        {
+            "file": "src/config/langues/de.js",
+            "line": 1,
+            "description": "Created by iris-mac on 08/11/2016.\n\nFichier utilisé pour la traduction de contenu vers de l'anglais",
+            "class": "Config"
+        },
+        {
+            "file": "src/config/langues/en.js",
+            "line": 1,
+            "description": "Created by iris-mac on 08/11/2016.\n\nFichier utilisé pour la traduction de contenu vers de l'anglais",
+            "class": "Config"
+        },
+        {
+            "file": "src/config/langues/fr.js",
+            "line": 1,
+            "description": "Created by iris-mac on 08/11/2016.\n\nfichié utilisé pour la traduction de contenu fr",
+            "class": "Config"
+        },
+        {
+            "file": "src/config/langues/nl.js",
+            "line": 1,
+            "description": "Created by iris-mac on 08/11/2016.\n\nFichier utilisé pour la traduction de contenu vers de l'anglais",
+            "class": "Config"
+        },
+        {
+            "file": "src/config/index.js",
+            "line": 53,
+            "description": "Met en place la config déterminée par l'utilisateur, principalement utilisé en production",
+            "itemtype": "method",
+            "name": "setConfig",
+            "params": [
+                {
+                    "name": "imported",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "since": "1.0.2",
+            "class": "Config",
+            "module": "Config"
+        },
+        {
+            "file": "src/config/index.js",
+            "line": 69,
+            "description": "Test des points essentiels de la configuration de l'app, retourne si la configuration est bonne ou non.",
+            "itemtype": "method",
+            "name": "testNecessaryConfig",
+            "params": [
+                {
+                    "name": "configObject",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Boolean"
+            },
+            "since": "1.0.2",
+            "updated": "1.1.0",
+            "class": "Config",
+            "module": "Config"
+        },
+        {
+            "file": "src/config/index.js",
+            "line": 91,
+            "description": "Tests si les éléments de dom sont bien initalisés",
+            "itemtype": "method",
+            "name": "testDomElements",
+            "params": [
+                {
+                    "name": "configObject",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Boolean"
+            },
+            "since": "1.1.0",
+            "class": "Config",
+            "module": "Config"
+        },
+        {
+            "file": "src/domListenerCallback/index.js",
+            "line": 1,
+            "description": "Created by iris-mac on 07/11/2016.",
+            "class": "domListenerCallback",
+            "module": "Config"
+        },
+        {
+            "file": "src/domListenerCallback/index.js",
+            "line": 22,
+            "description": "Permet de changer le state d'une checkbox quand on clique dessus\n\nUtilisé comme callback sur l'évènement 'change', sur les checkboxs.\nDéclanche l'action `checkedSearch dans le model`",
+            "itemtype": "method",
+            "name": "handleCheck",
+            "params": [
+                {
+                    "name": "store",
+                    "description": "Instance de du store de redux",
+                    "type": "Object"
+                },
+                {
+                    "name": "event",
+                    "description": "Evènement renvoyé par l'écouteur d'évènement",
+                    "type": "Object"
+                }
+            ],
+            "class": "domListenerCallback",
+            "module": "domListenerCallback"
+        },
+        {
+            "file": "src/domListenerCallback/index.js",
+            "line": 36,
+            "description": "Permet de mettre en forme la query et de réinstancer un nouveau state\n\nEnregistrement des paramètres de query dans le localhost, et enregistrement du timestamp pour l'invalidation",
+            "itemtype": "method",
+            "name": "handleEngineUpdate",
+            "params": [
+                {
+                    "name": "store",
+                    "description": "redux object",
+                    "type": "Object"
+                },
+                {
+                    "name": "event",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "since": "0.2.0",
+            "class": "domListenerCallback",
+            "module": "domListenerCallback"
+        },
+        {
+            "file": "src/template/renders.js",
+            "line": 11,
+            "description": "Méthode pour la gestion des rendus de l'application\n\nAttention utilisation du cache, pour éviter de rerender quand les informations n'ont pas changé",
+            "itemtype": "method",
+            "name": "render",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "instance de AjaxSearch pour permettre de récupérer les information et passer une instance de data aux cb",
+                    "type": "Object"
+                },
+                {
+                    "name": "type",
+                    "description": "type de donnée du state",
+                    "type": "String"
+                },
+                {
+                    "name": "template",
+                    "description": "template hbs",
+                    "type": "Function"
+                },
+                {
+                    "name": "tag",
+                    "description": "id de l'élément à rendre",
+                    "type": "String"
+                },
+                {
+                    "name": "cb",
+                    "description": "Callback pour la gestion des évènements (doit être curryable, cf utils méthode curryCb)",
+                    "type": "Function"
+                },
+                {
+                    "name": "hide",
+                    "description": "Si il faut cacher le semainier ou non",
+                    "type": "Boolean"
+                }
+            ],
+            "since": "0.1.0",
+            "updated": "0.2.0",
+            "class": "Renders",
+            "module": "Template"
+        },
+        {
+            "file": "src/utils/cache.js",
+            "line": 1,
+            "description": "Created by iris-mac on 26/10/2016.",
+            "class": "Cache",
+            "module": "Template"
+        },
+        {
+            "file": "src/utils/cache.js",
+            "line": 16,
+            "description": "Initialisation le la clée de cache pour un cache",
+            "itemtype": "method",
+            "name": "initializeCache",
+            "params": [
+                {
+                    "name": "cacheName",
+                    "description": "",
+                    "type": "String"
+                },
+                {
+                    "name": "cacheReference",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "since": "0.1.0",
+            "class": "Cache",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 20,
+            "description": "Objet contenant des méthodes pour bind et unbind des évènement sur un node List",
+            "type": "{{bind: ((nodeList?, event?, callback?)), unbind: ((nodeList?, event?, callback?))}}",
+            "since": "0.1.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 35,
+            "description": "Méthode pour du curry de paramètres ( Non ce n'est pas un plat )\n\nUn peu de documentation pour le [curry](https://www.sitepoint.com/currying-in-functional-javascript/)",
+            "itemtype": "method",
+            "name": "curryCb",
+            "params": [
+                {
+                    "name": "cb",
+                    "description": "",
+                    "type": "Function"
+                }
+            ],
+            "since": "0.1.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 49,
+            "description": "Méthode pour encoder en base 64 des chaines de catactères ou des objets / tableaux",
+            "itemtype": "method",
+            "name": "base64Encode",
+            "params": [
+                {
+                    "name": "toEncode",
+                    "description": "",
+                    "type": "*"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "String"
+            },
+            "since": "0.2.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 66,
+            "description": "Méthode permettant de construire dune requête fetch",
+            "itemtype": "method",
+            "name": "constructRequest",
+            "params": [
+                {
+                    "name": "uri",
+                    "description": "Uri du service web",
+                    "type": "String"
+                },
+                {
+                    "name": "endpoint",
+                    "description": "Endpoint sur lequel récupérer les données",
+                    "type": "String"
+                },
+                {
+                    "name": "query",
+                    "description": "la query associée ( Optionnel )",
+                    "type": "String"
+                },
+                {
+                    "name": "options",
+                    "description": "Options de cofiguration pour la requete ( Optionnel )",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Promise.<T>"
+            },
+            "since": "0.2.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 92,
+            "description": "Récupères les paramètres inscrit dans le moteur de recherche",
+            "itemtype": "method",
+            "name": "getParametersSearchEngine",
+            "return": {
+                "description": "}",
+                "type": "Start: moment, end: moment, type: string, person: int"
+            },
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 107,
+            "description": "Log les performances de l'application dans le back end\nAttention, écoute un évènement pour avoir les derniers critères et finaliser l'envoi du log",
+            "itemtype": "method",
+            "name": "logPerformance",
+            "params": [
+                {
+                    "name": "type",
+                    "description": "Type du log",
+                    "type": "String"
+                },
+                {
+                    "name": "ip",
+                    "description": "Ip du client",
+                    "type": "String"
+                },
+                {
+                    "name": "time",
+                    "description": "Nombre de secondes écoulées",
+                    "type": "Int"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Function"
+            },
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 138,
+            "description": "Envoie la recherche au backend en cas de non résultat",
+            "itemtype": "method",
+            "name": "logNoResults",
+            "params": [
+                {
+                    "name": "type",
+                    "description": "type du log",
+                    "type": "String"
+                },
+                {
+                    "name": "search",
+                    "description": "Tableau du state des recherches",
+                    "type": "Array"
+                }
+            ],
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 156,
+            "description": "Méthode permettant de logger dans la base de donnée\nBien penser que le paramètre à passer est de type URLSearchParams --> sinon ne marche pas",
+            "itemtype": "method",
+            "name": "logToBackend",
+            "params": [
+                {
+                    "name": "params",
+                    "description": "Objet de type UrlSearchParams",
+                    "type": "Object"
+                }
+            ],
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 171,
+            "description": "Gestion du spinner",
+            "itemtype": "method",
+            "name": "makeItSpin",
+            "params": [
+                {
+                    "name": "shouldItSpin",
+                    "description": "Si le spinner doit être affiché ou enlevé",
+                    "type": "Boolean"
+                }
+            ],
+            "since": "1.2.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 190,
+            "description": "Méthode permettant de savoir si la date à un intervalle plus grand que la limite en minute renseignée",
+            "itemtype": "method",
+            "name": "isTimeSmallerThan",
+            "params": [
+                {
+                    "name": "entry",
+                    "description": "Date d'entrée",
+                    "type": "String"
+                },
+                {
+                    "name": "limit",
+                    "description": "Limite en temps depuis maintenant ( en minute )",
+                    "type": "Int"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Boolean"
+            },
+            "since": "0.2.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 208,
+            "description": "Méthod permettant d'itérer à travers tous les terms du state",
+            "itemtype": "method",
+            "name": "termsIteration",
+            "params": [
+                {
+                    "name": "cb",
+                    "description": "",
+                    "type": "Func"
+                },
+                {
+                    "name": "state",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array"
+            },
+            "since": "0.2.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 232,
+            "description": "Méthode permettant d'isoler tous les termes de l'objet envoyé",
+            "itemtype": "method",
+            "name": "getAllTerms",
+            "params": [
+                {
+                    "name": "array",
+                    "description": "",
+                    "type": "Array"
+                }
+            ],
+            "since": "0.2.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 264,
+            "description": "Méthode permetant de créer les objets de taxonomies",
+            "itemtype": "method",
+            "name": "createTaxonomies",
+            "params": [
+                {
+                    "name": "array",
+                    "description": "",
+                    "type": "Array"
+                }
+            ],
+            "since": "0.2.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 328,
+            "description": "Méthode permettant de récupérer tous les posts dans le state",
+            "methode": "getAllPosts",
+            "params": [
+                {
+                    "name": "array",
+                    "description": "",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array"
+            },
+            "since": "0.2.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 342,
+            "description": "Méthode permettant de réduire de un niveau des tableaux nestled",
+            "itemtype": "method",
+            "name": "flatten",
+            "params": [
+                {
+                    "name": "arrays",
+                    "description": "",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array"
+            },
+            "since": "0.2.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 358,
+            "description": "Méthode permettant de filtrer les proposals, selon les values de search values\n\nLa méthode vient filtrer tous les posts, ayant les terms cochés dans le formulaire de recherche\nCette relation est de type AND, et non OR\n\n\nLa relation de type AND est réalisé au niveau du filtre sur les valeurs de recheche,\nen effet, si le filtre sur les searchValues n'est pas de la même longeur que searchValues,\ncela veut dire que tous les termes ne sont pas présents dans ce post. Ce post n'est donc pas pris en compte par le filtre.",
+            "itemtype": "method",
+            "name": "filterProposalWithSearchValues",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "Tableau des valeurs du state",
+                    "type": "Array"
+                },
+                {
+                    "name": "searchValues",
+                    "description": "Tableau des valeurs cochées",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array"
+            },
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 409,
+            "description": "Méthode permettant de filtrer les proposals, selon les values de search values\n\nLa méthode vient filtrer tous les posts, ayant les terms cochés dans le formulaire de recherche\nCette relation est de type AND, et non OR\n\n\nLa relation de type AND est réalisé au niveau du filtre sur les valeurs de recheche,\nen effet, si le filtre sur les searchValues n'est pas de la même longeur que searchValues,\ncela veut dire que tous les termes ne sont pas présents dans ce post. Ce post n'est donc pas pris en compte par le filtre.",
+            "itemtype": "method",
+            "name": "filterPostWithSearchValues",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "Tableau des valeurs du state",
+                    "type": "Array"
+                },
+                {
+                    "name": "searchValues",
+                    "description": "Tableau des valeurs cochées",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array"
+            },
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 458,
+            "description": "Méthode retournant tous les termes dont le state est à true\n\nCette méthode filtre les objet n'ayant pas un state à true",
+            "itemtype": "method",
+            "name": "filterTermsByState",
+            "params": [
+                {
+                    "name": "array",
+                    "description": "",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array"
+            },
+            "since": "0.2.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 480,
+            "description": "Méthode permettant de regrouper les proposition par gamme d'hébergement",
+            "itemtype": "method",
+            "name": "regroupProposalsByCategories",
+            "params": [
+                {
+                    "name": "array",
+                    "description": ""
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array"
+            },
+            "since": "0.3.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 553,
+            "description": "Méthode utilitaire permettant de taiter les posts pour le render",
+            "itemtype": "method",
+            "name": "propsalData",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array"
+            },
+            "since": "0.3.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 570,
+            "description": "Méthode utilitaire permettant de savoir si toutes les propositions envoyées sont des contres proposition ou non",
+            "itemtype": "method",
+            "name": "hasProposalsCounter",
+            "params": [
+                {
+                    "name": "proposals",
+                    "description": "",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Boolean"
+            },
+            "since": "2.2.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 585,
+            "description": "Méthode utilitaire permettant d'extraire un objet pour le search form",
+            "itemtype": "method",
+            "name": "searchFromData",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array"
+            },
+            "since": "0.3.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 615,
+            "description": "Méthode privée permettant d'isoler tous les terms cochés",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 652,
+            "description": "Méthode permettant de filtrer les posts ne comportant pas de posts",
+            "itemtype": "method",
+            "name": "filterNoGood",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array"
+            },
+            "since": "1.2.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 669,
+            "description": "Fonction pour parser le json dans les objets",
+            "itemtype": "method",
+            "name": "parseJson",
+            "params": [
+                {
+                    "name": "state",
+                    "description": "",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array"
+            },
+            "since": "1.2.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 698,
+            "description": "Parse les termmetas en fonction de ce qui existe dans l'objet",
+            "itemtype": "method",
+            "name": "parseTermMetas",
+            "params": [
+                {
+                    "name": "obj",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Object"
+            },
+            "since": "1.2.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 722,
+            "description": "Parse dans les post metas en fonctioon de ce qui existe",
+            "itemtype": "method",
+            "name": "parsePostMetas",
+            "params": [
+                {
+                    "name": "obj",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Object"
+            },
+            "since": "1.2.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 741,
+            "description": "Reorder the terms according to the order position",
+            "itemtype": "method",
+            "name": "reorderTerms",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array"
+            },
+            "since": "1.2.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 758,
+            "description": "Compare two object by termMeta and send back the result",
+            "itemtype": "method",
+            "name": "sortbyTermMeta",
+            "params": [
+                {
+                    "name": "a",
+                    "description": "",
+                    "type": "Object"
+                },
+                {
+                    "name": "b",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Number"
+            },
+            "since": "2.0.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 778,
+            "description": "Compare two object by name and send back the result",
+            "itemtype": "method",
+            "name": "sortbyName",
+            "params": [
+                {
+                    "name": "a",
+                    "description": "",
+                    "type": "Object"
+                },
+                {
+                    "name": "b",
+                    "description": "",
+                    "type": "Object"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Number"
+            },
+            "since": "2.1.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 792,
+            "description": "Reorder proposals by the order given",
+            "itemtype": "method",
+            "name": "reorderProposals",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array"
+            },
+            "since": "2.0.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 805,
+            "description": "Met en disable les items qui ne sont pas sélectionnable",
+            "itemtype": "method",
+            "name": "disableItems",
+            "params": [
+                {
+                    "name": "selectedValuesIds",
+                    "description": "",
+                    "type": "Object"
+                },
+                {
+                    "name": "data",
+                    "description": "",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array"
+            },
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 842,
+            "description": "Récupération de tous les terms id sélectionnés",
+            "itemtype": "method",
+            "name": "getSelectedTermsId",
+            "params": [
+                {
+                    "name": "selectedTerms",
+                    "description": "",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array"
+            },
+            "since": "1.2.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 882,
+            "description": "Met la valeur contenue dans le localhost pour le type d'hébergement [location, emplacement,etc]",
+            "itemtype": "method",
+            "name": "setTypeValue",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array"
+            },
+            "since": "2.0.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 920,
+            "description": "Met toutes les gammes à true",
+            "itemtype": "method",
+            "name": "allGammesToTrue",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array"
+            },
+            "since": "2.0.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 950,
+            "description": "Filtre la propriété langage du formulaire\n\nDepecated since filterOutCategories exists",
+            "itemtype": "method",
+            "name": "filterLanguageOut",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array"
+            },
+            "since": "2.0.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 966,
+            "description": "Filtre les catégories non présente dans la white list",
+            "itemtype": "method",
+            "name": "filterOutCategories",
+            "params": [
+                {
+                    "name": "data",
+                    "description": "",
+                    "type": "Array"
+                },
+                {
+                    "name": "whiteList",
+                    "description": "",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array"
+            },
+            "since": "2.0.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 980,
+            "description": "Filtre les propositions qui sont des counter proposals",
+            "itemtype": "method",
+            "name": "filterOutCounter",
+            "params": [
+                {
+                    "name": "proposals",
+                    "description": "",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array"
+            },
+            "since": "2.2.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/utils/index.js",
+            "line": 998,
+            "description": "Filtre les propositions qui ne sont pas des counter proposals",
+            "itemtype": "method",
+            "name": "filterOutNotCounter",
+            "params": [
+                {
+                    "name": "proposals",
+                    "description": "",
+                    "type": "Array"
+                }
+            ],
+            "return": {
+                "description": "",
+                "type": "Array"
+            },
+            "since": "2.2.0",
+            "class": "UtilisClass",
+            "module": "Utils"
+        },
+        {
+            "file": "src/index.js",
+            "line": 78,
+            "description": "En charge de lancer les rendu sur les différentes parties de l'app\n\nDéclenche un rendu dans les différentes parties de l'app, quand une donnée du model est modifiée",
+            "itemtype": "method",
+            "name": "render",
+            "params": [
+                {
+                    "name": "store",
+                    "description": "Instance de la classe AjaxSearch",
+                    "type": "Object"
+                }
+            ],
+            "class": "Base",
+            "module": "Base"
+        },
+        {
+            "file": "src/index.js",
+            "line": 136,
+            "description": "En charge de la gestion de l'historique sur le navigateur",
+            "itemtype": "method",
+            "name": "historyChanger",
+            "params": [
+                {
+                    "name": "history",
+                    "description": "Instance de la classe AjaxSearch",
+                    "type": "Object"
+                }
+            ],
+            "class": "Base",
+            "module": "Base"
+        },
+        {
+            "file": "src/index.js",
+            "line": 147,
+            "description": "Initiaisation de l'internationalisation",
+            "class": "Base",
+            "module": "Base"
+        },
+        {
+            "file": "src/index.js",
+            "line": 153,
+            "description": "Instance de l'ajax store",
+            "type": "{AjaxStore}",
+            "class": "Base",
+            "module": "Base"
+        },
+        {
+            "file": "src/index.js",
+            "line": 164,
+            "description": "Récupération initale des paramètres sur le serveur",
+            "class": "Base",
+            "module": "Base"
+        },
+        {
+            "file": "src/index.js",
+            "line": 224,
+            "description": "Récupération des données sur le search engine",
+            "class": "Base",
+            "module": "Base"
+        },
+        {
+            "file": "webpack.config.js",
+            "line": 1,
+            "description": "Created by iris-mac on 21/10/2016.",
+            "class": "",
+            "module": "Base"
+        }
+    ],
+    "warnings": [
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/config/index.js:69"
+        },
+        {
+            "message": "unknown tag: updated",
+            "line": " src/config/index.js:69"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/config/index.js:91"
+        },
+        {
+            "message": "unknown tag: updated",
+            "line": " src/template/renders.js:11"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/utils/index.js:49"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/utils/index.js:66"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/utils/index.js:190"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/utils/index.js:208"
+        },
+        {
+            "message": "unknown tag: methode",
+            "line": " src/utils/index.js:328"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/utils/index.js:328"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/utils/index.js:342"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/utils/index.js:358"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/utils/index.js:409"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/utils/index.js:458"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/utils/index.js:480"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/utils/index.js:553"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/utils/index.js:570"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/utils/index.js:585"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/utils/index.js:652"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/utils/index.js:669"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/utils/index.js:698"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/utils/index.js:722"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/utils/index.js:741"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/utils/index.js:758"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/utils/index.js:778"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/utils/index.js:792"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/utils/index.js:805"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/utils/index.js:842"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/utils/index.js:882"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/utils/index.js:920"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/utils/index.js:950"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/utils/index.js:966"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/utils/index.js:980"
+        },
+        {
+            "message": "replacing incorrect tag: returns with return",
+            "line": " src/utils/index.js:998"
+        },
+        {
+            "message": "Missing item type\nCreated by iris-mac on 08/11/2016.\n\nFichier utilisé pour la traduction de contenu vers de l'anglais",
+            "line": " src/config/langues/de.js:1"
+        },
+        {
+            "message": "Missing item type\nCreated by iris-mac on 08/11/2016.\n\nFichier utilisé pour la traduction de contenu vers de l'anglais",
+            "line": " src/config/langues/en.js:1"
+        },
+        {
+            "message": "Missing item type\nCreated by iris-mac on 08/11/2016.\n\nfichié utilisé pour la traduction de contenu fr",
+            "line": " src/config/langues/fr.js:1"
+        },
+        {
+            "message": "Missing item type\nCreated by iris-mac on 08/11/2016.\n\nFichier utilisé pour la traduction de contenu vers de l'anglais",
+            "line": " src/config/langues/nl.js:1"
+        },
+        {
+            "message": "Missing item type\nCreated by iris-mac on 07/11/2016.",
+            "line": " src/domListenerCallback/index.js:1"
+        },
+        {
+            "message": "Missing item type\nCreated by iris-mac on 26/10/2016.",
+            "line": " src/utils/cache.js:1"
+        },
+        {
+            "message": "Missing item type\nObjet contenant des méthodes pour bind et unbind des évènement sur un node List",
+            "line": " src/utils/index.js:20"
+        },
+        {
+            "message": "Missing item type\nMéthode permettant de récupérer tous les posts dans le state",
+            "line": " src/utils/index.js:328"
+        },
+        {
+            "message": "Missing item type\nMéthode privée permettant d'isoler tous les terms cochés",
+            "line": " src/utils/index.js:615"
+        },
+        {
+            "message": "Missing item type\nInitiaisation de l'internationalisation",
+            "line": " src/index.js:147"
+        },
+        {
+            "message": "Missing item type\nInstance de l'ajax store",
+            "line": " src/index.js:153"
+        },
+        {
+            "message": "Missing item type\nRécupération initale des paramètres sur le serveur",
+            "line": " src/index.js:164"
+        },
+        {
+            "message": "Missing item type\nRécupération des données sur le search engine",
+            "line": " src/index.js:224"
+        },
+        {
+            "message": "Missing item type\nCreated by iris-mac on 21/10/2016.",
+            "line": " webpack.config.js:1"
+        }
+    ]
+}
